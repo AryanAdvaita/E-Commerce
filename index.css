@@ -13,3 +13,41 @@ head{
     color:white
 
 }
+.container{
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    flex: 1 1 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+@media (min-width: 600px) {
+    /*this is for devices with a minimum width of 600px, like tablets*/
+      body {
+        background-color: #e0f7fa;
+      }
+      .box {
+        flex: 1 1 45%; 
+      }
+    }
+
+    
+    @media (min-width: 1024px) {
+        /*this is for devices with a minimum width of 1024px, like computers*/
+      body {
+        background-color: #e8f5e9;
+      }
+      .box {
+        flex: 1 1 30%; 
+      }
+    }
