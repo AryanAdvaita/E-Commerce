@@ -12,6 +12,12 @@
 
     <!--<a href="filepath">Name for link</a>-->
   </nav>
+  <form id="searchForm">
+    <label for="searchItem">Search:</label>
+    <input type="text" id="searchItem" name="searchItem" required>
+  </form>
+  <button id="searchButton" onclick="searchButton()">Search</button>
+  <script src="search.js"></script>
 </head>
 <body>
     <section>
@@ -20,7 +26,7 @@
     </section>
     <section>
       <h1>Here is a list of our products and services</h1>
-      <ul>
+      <ul id="productList">
         <li>Watches</li>
         <li>Groceries</li>
         <li>Electronics</li>
