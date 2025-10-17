@@ -5,6 +5,8 @@
   <img src="dollar.png" alt="dollar-sign">
   <title>HTML E-Commerce Project</title>
   <link rel="stylesheet" href="index.css">
+</head>
+<body>
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -12,18 +14,17 @@
 
     <!--<a href="filepath">Name for link</a>-->
   </nav>
-  <form id="searchForm">
-    <label for="searchItem">Search:</label>
-    <input type="text" id="searchItem" name="searchItem" required>
-  </form>
-  <button id="searchButton" onclick="searchButton()">Search</button>
-  <script src="search.js"></script>
-</head>
-<body>
     <section>
         <h1>E-Commerce Website Product Listing</h1>
 
     </section>
+    <form id="searchForm">
+      <label for="searchItem">Search:</label>
+      <input type="text" id="searchItem" name="searchItem" required>
+      <button type="submit" id="searchButton">Search</button>
+    </form>
+    <div id="root"></div>
+    <!--session 13 here-->
     <section>
       <h1>Here is a list of our products and services</h1>
       <ul id="productList">
@@ -36,6 +37,7 @@
         <li>Returns</li>
       </ul>
     </section>
+    <script src="search.js"></script>
   
 </body>
 <footer>

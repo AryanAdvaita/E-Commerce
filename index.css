@@ -6,9 +6,11 @@ body{
 
 }
 nav{
-    background-color: white;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
-head{
+header{
     background-color: black;
     color:white
 
@@ -34,10 +36,15 @@ head{
 @media (min-width: 600px) {
     /*this is for devices with a minimum width of 600px, like tablets*/
       body {
-        background-color: #e0f7fa;
+        background-color: white;
       }
       .box {
         flex: 1 1 45%; 
+      }
+      img{
+        width: 10%;
+        height: auto;
+        background-color: green;
       }
     }
 
@@ -45,9 +52,14 @@ head{
     @media (min-width: 1024px) {
         /*this is for devices with a minimum width of 1024px, like computers*/
       body {
-        background-color: #e8f5e9;
+        background-color: white;
       }
       .box {
         flex: 1 1 30%; 
+      }
+      img{
+        width: 10%;
+        height: auto;
+        background-color: green;
       }
     }
