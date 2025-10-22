@@ -47,11 +47,12 @@ function App() {
       {
       
       <Router>
-      <nav style={{ padding: 10, background: '#eee' }}>
-        <Link to="/" style={{ marginRight: 10 }}>Home</Link>
-        <Link to="/products" style={{ marginRight: 10 }}>Products</Link>
-        <Link to="/shopping_cart" style={{ marginRight: 10 }}>Cart</Link>
-        <Link to="/user">User Registration</Link>
+      <nav style={{ padding: 10, background: '#172E58', color: 'white' }}>
+        <Link style={{color:'red', marginRight: 60, fontSize: 50,}}>AdvaitaCorp</Link>
+        <Link to="/" style={{ marginRight: 10, color: 'white'  }}>Home</Link>
+        <Link to="/products" style={{ marginRight: 10, color: 'white'  }}>Products</Link>
+        <Link to="/shopping_cart" style={{ marginRight: 10, color: 'white'  }}>Cart</Link>
+        <Link to="/user" style={{ marginRight: 10, color: 'white'  }}>User Registration</Link>
       </nav>
 
       <Routes>

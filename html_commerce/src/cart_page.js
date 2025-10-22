@@ -8,7 +8,7 @@ const CartPage = () => {
   const totalPrice = cart.reduce((total, item) => total + item.price, 0);
 
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{ padding: 20, backgroundColor:'#00ffff' }}>
       <h1>Shopping Cart</h1>
       {cart.length === 0 && <p>Your cart is empty</p>}
       {cart.map((item, index) => (

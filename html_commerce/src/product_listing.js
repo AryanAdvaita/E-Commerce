@@ -30,7 +30,7 @@ const Productlisting = ({ products, onAddToCart }) => {
   );
 
     return(
-    <div style={{ padding: 20 }}>
+    <div style={{ padding: 20, backgroundColor:'#00ffff' }}>
       <div style={{ marginBottom: 10 }}>
         <input
           type="text"
@@ -38,7 +38,7 @@ const Productlisting = ({ products, onAddToCart }) => {
           value={term}
           onChange={handleSearchChange}
         />
-        <select value={category} onChange={handleCategoryChange} style={{ marginLeft: 10 }}>
+        <select value={category} onChange={handleCategoryChange} style={{ marginLeft: 10, }}>
           <option value="all">All Categories</option>
           <option value="electronics">Electronics</option>
           <option value="books">Books</option>
@@ -46,7 +46,7 @@ const Productlisting = ({ products, onAddToCart }) => {
         </select>
       </div>
 
-        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', backgroundColor:'black' }}>
         {filteredProducts.map((p) => (
           <ProductCard
             key={p.id}

@@ -12,7 +12,7 @@ const UserRegistration = () => {
     const [password, setPassword] = React.useState('');
     const { user, login, logout } = React.useContext(AuthContext);
     return(
-        <div style={{ padding: 20 }}>
+        <div style={{ padding: 20, backgroundColor:'#00ffff' }}>
         <h2>User Registration</h2>
         {user ? (
             <div>
